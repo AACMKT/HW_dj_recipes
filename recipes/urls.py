@@ -21,5 +21,4 @@ from calculator.views import recipes
 urlpatterns = {
     path('', recipes, name='recipes'),
     path('<str:dishes>/', recipes, name='recipes'),
-    # здесь зарегистрируйте вашу view-функцию
 }
